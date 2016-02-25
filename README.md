@@ -1,2 +1,2 @@
-# C-basic-
-Basic knowledge of C
+I want to be a person like Owen.
+C basic knowledge
