@@ -49,4 +49,9 @@ int main(void)
         arrPtr++;
         printf("\n");
     }
+
+    arrPtr = matrix;
+    *(*(arrPtr+1)+3) = 100;
+    printf("\n%d\n", *(*(arrPtr+1)+3));
 }
+
