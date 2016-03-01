@@ -13,6 +13,9 @@
 #ifndef STATIC
 #define STATIC 1000
 #endif
+#if !defined (HELLO)
+#error NO HELLO WORLD
+#endif
 int main(void)
 {
     //in_static();
@@ -35,6 +38,7 @@ int main(void)
     #else
         printf("Wrong!");
     #endif
+
 
     return 0;
 }
